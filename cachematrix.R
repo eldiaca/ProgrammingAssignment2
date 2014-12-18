@@ -9,7 +9,7 @@
 ## 4. get the value of inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
-        inv <- NULL
+        inv <- NULL # where the cached value of the inverse matrix will be stored
         set <- function(y) {
                 x <<- y
                 inv <<- NULL
